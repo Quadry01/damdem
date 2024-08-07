@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.carousel-item {
+  transition: opacity 600ms cubic-bezier(.4,0,.2,1);
+}
