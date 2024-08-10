@@ -22,6 +22,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('./public/bg.jpg')",
+        "about-pattern": "url('./public/slide15.jpg')",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
