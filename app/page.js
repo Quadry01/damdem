@@ -60,7 +60,7 @@ export default function Home() {
         {/* GALLERY */}
         <div className="">
           <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
-            DAMDEM SYSTEMS PROJECTS
+        PROJECTS
           </h1>
           <Carousel>
             <div>
