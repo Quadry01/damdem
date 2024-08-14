@@ -9,16 +9,20 @@ import sl5 from "../../public/slide8.jpg";
 import prof from "../../public/prfo.jpg";
 import dro from "../../public/dro.jpeg";
 
-
 function About() {
   return (
     <div>
       <div className="w-full h-scren max-[600px]:mt-20">
-        <video width="1620" height="240" autoPlay
+        <video
+          width="1620"
+          height="240"
+          autoPlay
           muted
           loop
-          playsInline contro preload="none">
-                     <source src={"vid1.mp4"} type="video/mp4" />
+          playsInline
+          preload="none"
+        >
+          <source src={"vid1.mp4"} type="video/mp4" />
 
           {/* <source src={vid} type="video/mp4" /> */}
           <track
@@ -69,39 +73,39 @@ function About() {
         "
         >
           <div
-            className="flex flex-row 
+            className="flex flex-row  max-[600px]:px-4
           "
           >
             <Image
-              className=" mx-4 basis-1/4 rounded-3xl max-[600px]:mx-1 max-[600px]:h-40"
+              className="1 mx-4 basis-1/4 rounded-3xl max-[600px]:mx-1 max-[600px]:h-24 max-[600px]:w-32"
               height={"full"}
               width={200}
               src={sl1}
               alt="8"
             />{" "}
             <Image
-              className=" mx-4 basis-1/4 rounded-3xl max-[600px]:hidden"
+              className="2 mx-4 basis-1/4 rounded-3xl max-[600px]:hidden"
               height={"full"}
               width={200}
               src={sl2}
               alt="8"
             />
             <Image
-              className=" mx-4 basis-1/4 rounded-3xl max-[600px]:mx-1 max-[600px]:hidden"
+              className="3 mx-4 basis-1/4 rounded-3xl max-[600px]:mx-1 max-[600px]:h-24 max-[600px]:w-32"
               height={"full"}
               width={200}
               src={sl3}
               alt="8"
             />
             <Image
-              className=" mx-4  basis-1/4 rounded-3xl max-[600px]hidden"
+              className="4 mx-4  basis-1/4 rounded-3xl max-[600px]:mx-1 max-[600px]:h-24 max-[600px]:w-32"
               height={"full"}
               width={200}
               src={sl4}
               alt="8"
             />
             <Image
-              className=" mx-4 basis-1/4 rounded-3xl max-[600px]:hidden "
+              className="5 mx-4 basis-1/4 rounded-3xl max-[600px]:hidden "
               height={"full"}
               width={200}
               src={sl5}
@@ -116,7 +120,7 @@ function About() {
           <article class="format lg:format-lg   p-10 pt-20  w-1/2 max-[600px]:pt-4 max-[600px]:p-4 max-[600px]:w-full">
             <h1></h1>
             <p class="lead text-justify">
-              <strong> Professor OLUMIDE O. OLUSANYA </strong>Professor Olumide
+              <strong> Professor Olumide Olusanya </strong>Professor Olumide
               O. Olusanya is an accomplished architect, composer, and pianist,
               currently serving as an adjunct professor in the Department of
               Architecture at the University of Lagos. He earned his B.Arch.
@@ -148,7 +152,7 @@ function About() {
 
           <div className="w-1/2 pl-5 max-[600px]:w-full">
             <Image
-             className=" mx-4 basis-1/4 rounded-3xl block "
+              className=" mx-4 basis-1/4 rounded-3xl block "
               height={300}
               width={400}
               src={prof}
@@ -202,7 +206,6 @@ function About() {
             </p>
 
             <p className="lead text-justify pt-3">
-              {" "}
               She is a member of the Nigerian Industrial Relations Association
               (NIERA), the Nigerian Institute of Management (NIM), the Society
               for Human Resource Management (SHRM), the Lagos Studies
