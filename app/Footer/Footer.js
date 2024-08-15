@@ -13,6 +13,7 @@ function Footer() {
             <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
       
 <Image
+className='p-4 bg-white'
       src={logo}
       width={300}
       height={300}

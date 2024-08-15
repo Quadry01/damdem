@@ -5,15 +5,21 @@ var Carousel = require("react-responsive-carousel").Carousel;
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import React, { useState, useEffect } from "react";
-import sl1 from "../public/slide1.jpg";
-import sl2 from "../public/slide2.jpg";
-import sl3 from "../public/slide3.jpg";
-import sl4 from "../public/slide4.jpg";
-import sl5 from "../public/slide6.jpg";
-import sl6 from "../public/slide7.png";
-import sl7 from "../public/slide8.jpg";
-import sl8 from "../public/slide9.jpg";
-import sl9 from "../public/slide10.jpg";
+import sl1 from "../public/001.png";
+import sl2 from "../public/002.png";
+import sl3 from "../public/003.png";
+import sl4 from "../public/004.png";
+import sl5 from "../public/005.png";
+import sl6 from "../public/006.png";
+import sl7 from "../public/007.png";
+import sl8 from "../public/008.png";
+import sl9 from "../public/009.png";
+import sl10 from "../public/0010.png";
+import sl11 from "../public/0011.png";
+import sl12 from "../public/0012.jpg";
+import sl13 from "../public//0013.jpg";
+import sl14 from "../public/0014.jpg"
+import cert from "../public/cert.jpg"
 
 import unilag from "../public/unilag logo for slides.png";
 import lagos from "../public/client3.jpeg";
@@ -36,14 +42,17 @@ export default function Home() {
               </p>
             </div>
             <h1 className="mb-4 pt-10 text-4xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-              DamDem SYSTEMS HOUSING
+              DamDem SYSTEMS
             </h1>
             <p className="mb-8 text-lg font-normal text-center text-gray-300 lg:text-xl sm:px-16 lg:px-48">
               DamDem Systems (Building) is a registered name for R&D by
-              Professor Olumide Olusanya <br/>Over more than 40 years at the
-              Department of Architecture University of Lagos, actualized in over
-              400 housing units.
+              Professor Olumide Olusanya <br />
+              Over more than 40 years at the Department of Architecture
+              University of Lagos, actualized in over 400 housing units.
             </p>
+<div class="flex justify-center items-center m-5">
+                          <Image className="" height={200} width={200} src={cert} alt="certificate" /></div>
+
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
               <a
                 href="/About"
@@ -60,7 +69,7 @@ export default function Home() {
         {/* GALLERY */}
         <div className="">
           <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
-        PROJECTS
+            PROJECTS
           </h1>
           <Carousel>
             <div>
@@ -86,6 +95,24 @@ export default function Home() {
             </div>
             <div>
               <Image height={"full"} width={"full"} src={sl8} alt="8" />
+            </div>
+             <div>
+              <Image height={"full"} width={"full"} src={sl9} alt="8" />
+            </div>
+             <div>
+              <Image height={"full"} width={"full"} src={sl10} alt="8" />
+            </div>
+             <div>
+              <Image height={"full"} width={"full"} src={sl11} alt="8" />
+            </div>
+             <div>
+              <Image height={"full"} width={"full"} src={sl12} alt="8" />
+            </div>
+             <div>
+              <Image height={"full"} width={"full"} src={sl13} alt="8" />
+            </div>
+             <div>
+              <Image height={"full"} width={"full"} src={sl14} alt="8" />
             </div>
           </Carousel>
         </div>

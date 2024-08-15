@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-import sl1 from "../../public/slide1.jpg";
-import sl2 from "../../public/slide2.jpg";
-import sl3 from "../../public/slide4.jpg";
-import sl4 from "../../public/slide6.jpg";
-import sl5 from "../../public/slide8.jpg";
+import sl1 from "../../public/001.png";
+import sl2 from "../../public/002.png";
+import sl3 from "../../public/003.png";
+import sl4 from "../../public/004.png";
+import sl5 from "../../public/005.png";
 import prof from "../../public/prfo.jpg";
 import dro from "../../public/dro.jpeg";
 
@@ -32,10 +32,14 @@ function About() {
             label="English"
           />
         </video>
+        <spam className=" pl-4 absolute bottom-1 bg-white p-1 max-[600px]:relative">
+          DamDem PRE-CAST SLAB BRIDGE CRANE: Innovation in Self-Erecting
+          Industrial Systems Building 2022
+        </spam>
       </div>
       <section
         class=" h-full
-       bg-center bg-no-repeat bg-[url('../public/slide15.jpg')] bg-gray-700 bg-blend-multiply"
+       bg-center bg-no-repeat bg-[url('../public/bg.jpg')] bg-gray-700 bg-blend-multiply"
       >
         <div className="px-4 mx-auto max-w-screen-xl  pt-20 max-[600px]:pt-4 ">
           <div className=" text-white relative bottom-10 mt-2 max-[600px]:bottom-0 ">
@@ -56,16 +60,97 @@ function About() {
               PROCESS – Industrial Construction (IC)
             </p>
           </dv>
+          <div className=" flex text-white w-full max-[600px]:flex-wrap">
+            <div className="w-1/2 mr-4 max-[600px]:w-full">
+              <h1 className="mb-4 pt-10 text-4xl  text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
+                DAMDEM SYSTEMS HOUSING
+              </h1>
+              <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-4">
+                The Modularized Housing developed over 4 decades provides a wide
+                variety of apartment types. It also provides the possibility of
+                different permutations of apartments in any given block as may
+                be required. <br className="mb-2" />
+                These innovative housing prototypes have been demonstrated in
+                built projects in Lagos state.
+              </p>
 
-          <h1 className="mb-4 pt-10 text-4xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-            DamDem SYSTEMS HOUSING
-          </h1>
-          <p className="mb-8 text-lg font-normal text-center text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-            DamDem Systems (Building) is a registered name for R&D by Professor
-            Olumide Olusanya <br />
-            Over more than 40 years at the Department of Architecture University
-            of Lagos, actualized in over 400 housing units.
-          </p>
+              <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-4">
+                The essential features are:
+              </p>
+              <ul className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-4">
+                <li className="list-disc">Optimal utilization of land;</li>
+                <li className="list-disc">Optimization of natural lighting and cross ventilation;</li>
+                <li className="list-disc">
+                  Articulation of the dual requirements for privacy as well as
+                  sense of community in the organization of residential units
+                  and public spaces.
+                </li>
+              </ul>
+            </div>
+            <div className="w-1/2 text-justify max-[600px]:w-full">
+              <h1 className="mb-4 pt-10 text-4xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">
+                DAMDEM SYSTEMS BUILDING
+              </h1>
+              <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-1">
+                DamDem Systems Building is an industrial building technology
+                developed over the past 30 years by Professor Olumide Olusanya
+                at the Department of Architecture, University of Lagos. The
+                industrial systems building consists of two stages:
+              </p>
+              <ul>
+                <li className="list-disc">
+                  {" "}
+                  <strong>INDUSTRIAL PRODUCTION</strong> of standardized
+                  prefabricated building components in on-site factory for
+                  minimization of transportation costs. Production of components
+                  under workshop conditions ensures optimal quality control and
+                  high productivity.
+                </li>{" "}
+                <li className="list-disc">
+                  {" "}
+                  <strong>MODULAR ASSEMBLY </strong> of interlocking precast
+                  reinforced concrete (rc) building components with speed and
+                  precision requiring minimal patching, cutting or wet work.
+                </li>
+              </ul>
+
+              <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-1">
+                <strong>THE CHALLENGE</strong>
+                Significant reduction in cost and time of housing production.
+                (Up to 40%)
+              </p>
+              <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-1">
+                <strong>THE STRATEGY</strong>
+                Domestication of industrialization of the housing delivery
+                process through the building of indigenous productive capacity
+                i.e. Industrial infrastructure
+              </p>
+              <p className="mb-1 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-4">
+                <strong>THE TACTICS</strong> -Paradigm shifts
+              </p>
+
+              <ul>
+                <li className="list-disc">
+                  From:{" "}
+                  <strong>
+                    low-productivity customized building construction </strong> To: <strong>
+                    high-productivity modularized industrial production
+                  </strong>
+                </li>
+                <li className="list-disc">
+                  {" "}
+                  From:{" "}
+                  <strong> use of low value-added building materials </strong>
+                  To: {" "}
+                  <strong>
+                    high value-added high-performance building components and
+                    technology
+                  </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
         </div>
 
         <div
@@ -120,33 +205,31 @@ function About() {
           <article class="format lg:format-lg   p-10 pt-20  w-1/2 max-[600px]:pt-4 max-[600px]:p-4 max-[600px]:w-full">
             <h1></h1>
             <p class="lead text-justify">
-              <strong> Professor Olumide Olusanya </strong>Professor Olumide
-              O. Olusanya is an accomplished architect, composer, and pianist,
-              currently serving as an adjunct professor in the Department of
-              Architecture at the University of Lagos. He earned his B.Arch.
-              from the University of Oregon and his M.Arch. from the University
-              of Washington. Appointed as a Professor of Architecture at the
-              University of Lagos in 1995, he also served as Dean of the Faculty
-              of Environmental Science from 1999 to 2000. His career is marked
-              by a focus on research and innovation in creative problem-solving,
-              with significant contributions to mass housing prototypes aimed at
-              environmental comfort and energy efficiency in tropical climates.
-              His work on sustainable building technology has been instrumental
-              in addressing housing challenges in Nigeria.
+              <strong> Professor Olumide Olusanya </strong> is an architect,
+              composer, and pianist. He is currently an adjunct professor in the
+              Department of Architecture at the University of Lagos. He earned a
+              B.Arch. from the University of Oregon and an M.Arch. from the
+              University of Washington. Appointed a Professor of Architecture in
+              1995, he also served as the Dean of the Faculty of Environmental
+              Science University of Lagos from 1999 to 2000. His career has been
+              focused on actualization of research and innovation in creative
+              problem solving that impact the society: The development of Mass
+              Housing Prototypes focused on environmental comfort and energy
+              savings in a tropical climate, and Appropriate Building Technology
+              for sustainable industrialization through capacity enhancement
+              tailored to the realities of a developing economy.
             </p>
 
             <p className="lead text-justify pt-3">
-              Prof Olusanya’s a has received numerous awards, including the
-              Distinguished Research Award from the Nigerian Universities
+              Professor Olusanya’s notable recognitions include: Certificate of
+              Award for Innovation by The Nigerian Academy of Engineering
+              (2024); Distinguished Research Awards at the Nigerian Universities
               Research and Development Fair (2005, 2008), and the University of
               Lagos Best Researcher Award for the Faculty of Environmental
               Science (2005-2008). He has also been a guest speaker at
               international conferences of the Commonwealth Association of
-              Architects. After retiring from the University of Lagos in 2022,
-              he continues to contribute to the academic community as an adjunct
-              professor. His work in housing development, particularly the Mass
-              Housing Pilot Project for LagosHOMS, stands as a testament to his
-              commitment to practical solutions in architecture.
+              Architects (CAA). His work was featured in CAA NewsNet ( 3rd
+              QUARTER 1997. Issue No 5).
             </p>
           </article>
 
@@ -161,10 +244,7 @@ function About() {
             <h1 className="font-extrabold text-2xl  pl-4">
               Professor Olumide Olusanya{" "}
             </h1>
-            <h1 className="font-bold text-xl pl-4">
-              Adjunct Professor <br />
-              Principal
-            </h1>
+            <h1 className="font-bold text-xl pl-4">Principal</h1>
           </div>
         </div>
       </div>
