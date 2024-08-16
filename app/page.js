@@ -45,9 +45,9 @@ export default function Home() {
               DamDem SYSTEMS
             </h1>
             <p className="mb-8 text-lg font-normal text-center text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-              DamDem Systems (Building) is a registered name for R&D by
+              DamDem Systems (Building) is a branded name for R&D by
               Professor Olumide Olusanya <br />
-              Over more than 40 years at the Department of Architecture
+              over more than 40 years at the Department of Architecture
               University of Lagos, actualized in over 400 housing units.
             </p>
 <div class="flex justify-center items-center m-5">

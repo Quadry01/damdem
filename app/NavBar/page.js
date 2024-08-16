@@ -55,7 +55,7 @@ className='max-[600px]h-10 max-[600px]w-20'
       </li>
      
       <li>
-        <a href="#" className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+        <a href="/Contact" className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
       </li>
     </ul>
   </div>
@@ -65,7 +65,7 @@ className='max-[600px]h-10 max-[600px]w-20'
 
 
 {/* MOBILE NAV */}
-        <div className={` ${hide}  animate-fade-right pt-16 bg-light-yellow text-white  bg-gray-800  z-10 left-0 absolute w-full `}>
+        <div className={` ${hide}  animate-fade-right pt-24 bg-light-yellow text-white  bg-gray-800  z-10 left-0 absolute w-full `}>
           <aside
            
             className=" "
