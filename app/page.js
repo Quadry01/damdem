@@ -49,7 +49,7 @@ export default function Home() {
                 </h1>
                 <p className="mb-8 text-lg font-normal text-justify text-gray-300 lg:text-xl sm:px-16 lg:px-10">
                   DamDem Systems (Building) is a branded name for R&D by
-                  Professor Olumide Olusanya <br />
+                  Professor Olumide Olusanya
                   over more than 40 years at the Department of Architecture
                   University of Lagos, actualized in over 400 housing units. The Modularized Housing system provides for a wide variety of Housing Prototypes. It also provides the possibility of different permutations  of  apartment  types  in  a prototype as may be required.
 
