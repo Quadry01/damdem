@@ -11,7 +11,7 @@ import dro from "../../public/dro.jpeg";
 
 function About() {
   return (
-    <div>
+    <div className=""> 
       <div className="w-full h-scren max-[600px]:mt-20">
         <video
           width="1620"
@@ -33,25 +33,25 @@ function About() {
           />
         </video>
         <spam className=" pl-4 absolute bottom-1 bg-white p-1 max-[600px]:relative">
-          DamDem PRE-CAST SLAB BRIDGE CRANE: Innovation in Self-Erecting
+          DAMDEM PRE-CAST SLAB BRIDGE CRANE: Innovation in Self-Erecting
           Industrial Systems Building 2022
         </spam>
       </div>
       <section
         class=" h-full
-       bg-center bg-no-repeat bg-[url('../public/bg.jpg')] bg-gray-700 bg-blend-multiply"
+       bg-center bg-no-repeat bg-[url('../public/bg.jpg')] bg-gray-700 bg-blend-multiply "
       >
         <div className="px-4 mx-auto max-w-screen-xl  pt-20 max-[600px]:pt-4 ">
           <div className=" text-white relative bottom-10 mt-2 max-[600px]:bottom-0 ">
             <h2 className="font-extrabold">
-              DamDem MODULAR BUILDING TECH. LTD.
+              DAMDEM MODULAR BUILDING TECH. LTD.
             </h2>
             <p>Project management and actualization of R&D by DamDem Systems</p>
           </div>
 
           <dv className="text-white">
             <h1 className="mb-4 pt-10 text-  font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-              DamDem SYSTEMS
+              DAMDEM SYSTEMS
             </h1>
             <i>Marriage of</i>
             <p className="font-extrabold">
@@ -77,7 +77,7 @@ function About() {
               <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-4">
                 The essential features are:
               </p>
-              <ul className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-4">
+              <ul className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-4 max-[600px]:px-4">
                 <li className="list-disc">Optimal utilization of land;</li>
                 <li className="list-disc">Optimization of natural lighting and cross ventilation;</li>
                 <li className="list-disc">
@@ -129,7 +129,7 @@ function About() {
                 <strong>THE TACTICS</strong> -Paradigm shifts
               </p>
 
-              <ul>
+              <ul className="max-[600px]:px-4">
                 <li className="list-disc">
                   From:{" "}
                   <strong>
@@ -202,7 +202,7 @@ function About() {
 
       <div className=" pt-32">
         <div className="p-10 flex max-[600px]:flex-wrap-reverse  ">
-          <article class="format lg:format-lg   p-10 pt-20  w-1/2 max-[600px]:pt-4 max-[600px]:p-4 max-[600px]:w-full">
+          <article class="format lg:format-lg   p-10 pt-20  w-1/2 max-[600px]:pt-4 max-[600px]:p-1 max-[600px]:w-full">
             <h1></h1>
             <p class="lead text-justify">
               <strong> Professor Olumide Olusanya </strong> is an architect,
@@ -233,7 +233,7 @@ function About() {
             </p>
           </article>
 
-          <div className="w-1/2 pl-5 max-[600px]:w-full">
+          <div className="w-1/2 pl-5 max-[600px]:w-full max-[600px]:pl-1">
             <Image
               className=" mx-4 basis-1/4 rounded-3xl block "
               height={300}
@@ -241,10 +241,10 @@ function About() {
               src={prof}
               alt="8"
             />
-            <h1 className="font-extrabold text-2xl  pl-4">
+            <h1 className="font-extrabold text-1xl  pl-4">
               Professor Olumide Olusanya{" "}
             </h1>
-            <h1 className="font-bold text-xl pl-4">Principal</h1>
+            <h1 className="font-semibold text-lg pl-4">Principal</h1>
           </div>
         </div>
       </div>
@@ -259,12 +259,12 @@ function About() {
               src={dro}
               alt="8"
             />
-            <h1 className="font-extrabold text-2xl  pr-4 max-[600px]:text-lg max-[600px]:w-full">
+            <h1 className="font-extrabold text-1xl  pr-4 max-[600px]:text-lg max-[600px]:w-full">
               Dr Olasunmbo Olusanya{" "}
             </h1>
-            <h1 className="font-bold text-xl pr-4">Director</h1>
+            <h1 className="font-semibold text-lg pr-4">Director</h1>
           </div>
-          <article class="format lg:format-lg   pr-40 pt-20  w-1/2 max-[600px]:pt-4 max-[600px]:p-4 max-[600px]:w-full">
+          <article class="format lg:format-lg   pr-40 pt-20  w-1/2 max-[600px]:pt-4 max-[600px]:p-1 max-[600px]:w-full">
             <p class="lead text-justify">
               <strong> Dr Olasunmbo Olusanya </strong>is an Employment
               Relations, Human Resource Management and Design Thinking

@@ -18,8 +18,8 @@ import sl10 from "../public/0010.png";
 import sl11 from "../public/0011.png";
 import sl12 from "../public/0012.jpg";
 import sl13 from "../public//0013.jpg";
-import sl14 from "../public/0014.jpg"
-import cert from "../public/cert.jpg"
+import sl14 from "../public/0014.jpg";
+import cert from "../public/cert.jpg";
 
 import unilag from "../public/unilag logo for slides.png";
 import lagos from "../public/client3.jpeg";
@@ -32,7 +32,7 @@ export default function Home() {
       {/* HERO PAGE */}
       <div>
         <section className="bg-cover bg-no-repeat bg-[url('../public/bg.jpg')] bg-gray-700 bg-blend-multiply">
-          <div className="px-4 mx-auto max-w-screen-xl  py-24 lg:py-52">
+          <div className="px-4 mx-auto max-w-screen-xl  py-24 lg:pt-40">
             <div className=" text-white relative bottom-10 mt-2 max-[600px]:bottom-0 ">
               <h2 className="font-extrabold">
                 DamDem MODULAR BUILDING TECH. LTD.
@@ -41,18 +41,30 @@ export default function Home() {
                 Project management and actualization of R&D by DamDem Systems
               </p>
             </div>
-            <h1 className="mb-4 pt-10 text-4xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-              DamDem SYSTEMS
-            </h1>
-            <p className="mb-8 text-lg font-normal text-center text-gray-300 lg:text-xl sm:px-16 lg:px-48">
-              DamDem Systems (Building) is a branded name for R&D by
-              Professor Olumide Olusanya <br />
-              over more than 40 years at the Department of Architecture
-              University of Lagos, actualized in over 400 housing units.
-            </p>
-<div class="flex justify-center items-center m-5">
-                          <Image className="" height={200} width={200} src={cert} alt="certificate" /></div>
+            <div className="flex  my-20  max-[600px]:flex-wrap  max-[600px]:my-5">
+              {" "}
+              <div className="w-1/2 mt-20  max-[600px]:w-full  max-[600px]:mt-1">
+                <h1 className="mb-4 pt-10 text-4xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                  DAMDEM SYSTEMS
+                </h1>
+                <p className="mb-8 text-lg font-normal text-justify text-gray-300 lg:text-xl sm:px-16 lg:px-10">
+                  DamDem Systems (Building) is a branded name for R&D by
+                  Professor Olumide Olusanya <br />
+                  over more than 40 years at the Department of Architecture
+                  University of Lagos, actualized in over 400 housing units. The Modularized Housing system provides for a wide variety of Housing Prototypes. It also provides the possibility of different permutations  of  apartment  types  in  a prototype as may be required.
 
+                </p>
+              </div>
+              <div class=" w-1/2 ml-20  max-[600px]:w-full  max-[600px]:ml-1  max-[600px]:my-10">
+                <Image
+                  className=""
+                  height={400}
+                  width={400}
+                  src={cert}
+                  alt="certificate"
+                />
+              </div>
+            </div>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
               <a
                 href="/About"
@@ -96,22 +108,22 @@ export default function Home() {
             <div>
               <Image height={"full"} width={"full"} src={sl8} alt="8" />
             </div>
-             <div>
+            <div>
               <Image height={"full"} width={"full"} src={sl9} alt="8" />
             </div>
-             <div>
+            <div>
               <Image height={"full"} width={"full"} src={sl10} alt="8" />
             </div>
-             <div>
+            <div>
               <Image height={"full"} width={"full"} src={sl11} alt="8" />
             </div>
-             <div>
+            <div>
               <Image height={"full"} width={"full"} src={sl12} alt="8" />
             </div>
-             <div>
+            <div>
               <Image height={"full"} width={"full"} src={sl13} alt="8" />
             </div>
-             <div>
+            <div>
               <Image height={"full"} width={"full"} src={sl14} alt="8" />
             </div>
           </Carousel>
@@ -122,32 +134,32 @@ export default function Home() {
         <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
           CLIENTS
         </h1>
-        <div className="flex max-[600px]:flex-wrap max-[600px]:px-20 pb-20 ">
+        <div className="flex  max-[600px]:flex-wrap max-[600px]:px-20 pb-20 ">
           <Image
             className="px-10 max-[600px]:mb-4"
             src={unilag}
-            width={350}
+            width={300}
             height={300}
             alt="Picture of the author"
           />
           <Image
             className="px-10 max-[600px]:mb-4"
             src={lagos}
-            width={""}
+            width={400}
             height={300}
             alt="Picture of the author"
           />
           <Image
             className="px-4 max-[600px]:mb-4"
             src={fg}
-            width={500}
+            width={400}
             height={300}
             alt="Picture of the author"
           />
           <Image
             className="px-4 max-[600px]:mb-4 "
             src={lasgH}
-            width={500}
+            width={400}
             height={300}
             alt="Picture of the author"
           />
