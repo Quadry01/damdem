@@ -41,10 +41,10 @@ export default function Home() {
                 Project management and actualization of R&D by DamDem Systems
               </p>
             </div>
-            <div className="flex  my-20  max-[600px]:flex-wrap  max-[600px]:my-5">
+            <div className="flex  my-20  pl-10 max-[600px]:flex-wrap  max-[600px]:my-5">
               {" "}
               <div className="w-1/2 mt-20  max-[600px]:w-full  max-[600px]:mt-1">
-                <h1 className="mb-4 pt-10 text-4xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                <h1 className="mb-4 pt-10 text-lg text-center font-semibold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
                   DAMDEM SYSTEMS
                 </h1>
                 <p className="mb-8 text-lg font-normal text-justify text-gray-300 lg:text-xl sm:px-16 lg:px-10">
@@ -55,7 +55,7 @@ export default function Home() {
 
                 </p>
               </div>
-              <div class=" w-1/2 ml-20  max-[600px]:w-full  max-[600px]:ml-1  max-[600px]:my-10">
+              <div class=" w-1/2 ml-10  max-[600px]:w-full  max-[600px]:ml-1  max-[600px]:my-10">
                 <Image
                   className=""
                   height={400}
