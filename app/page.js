@@ -135,7 +135,7 @@ export default function Home() {
         <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
           CLIENTS
         </h1>
-        <div className="flex px-1  max-[600px]:flex-wrap max-[600px]:px-20 pb-20 ">
+        <div className="flex px-1  max-[600px]:flex-wrap max-[600px]:px-10 pb-20 ">
           <Image
             className="px-2 max-[600px]:mb-4"
             src={unilag}
