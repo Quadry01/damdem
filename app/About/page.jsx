@@ -98,7 +98,7 @@ function About() {
                 industrial systems building consists of two stages:
               </p>
               <ul>
-                <li className="list-disc">
+                <li className="list-disc lg:text-xl">
                   {" "}
                   <strong>INDUSTRIAL PRODUCTION</strong> of standardized
                   prefabricated building components in on-site factory for
@@ -106,7 +106,7 @@ function About() {
                   under workshop conditions ensures optimal quality control and
                   high productivity.
                 </li>{" "}
-                <li className="list-disc">
+                <li className="list-disc my-2 lg:text-xl">
                   {" "}
                   <strong>MODULAR ASSEMBLY </strong> of interlocking precast
                   reinforced concrete (rc) building components with speed and
@@ -114,38 +114,38 @@ function About() {
                 </li>
               </ul>
 
-              <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-1">
-                <strong>THE CHALLENGE</strong>
+              <p className="mb-8 text-lg font-normal  text-white lg:text-xl  sm:px-16 lg:px-1">
+                <strong>THE CHALLENGE </strong>
                 Significant reduction in cost and time of housing production.
-                (Up to 40%)
+                (up to 40%)
               </p>
               <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-1">
-                <strong>THE STRATEGY</strong>
+                <strong>THE STRATEGY </strong>
                 Domestication of industrialization of the housing delivery
                 process through the building of indigenous productive capacity
                 i.e. Industrial infrastructure
               </p>
-              <p className="mb-1 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-4">
+              <p className="mb-1 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-0">
                 <strong>THE TACTICS</strong> -Paradigm shifts
               </p>
 
               <ul className="max-[600px]:px-4">
-                <li className="list-disc">
+                <li className="list-disc  lg:text-xl ">
                   From:{" "}
-                  <strong>
-                    low-productivity customized building construction </strong> To: <strong>
+                
+                    low-productivity customized building construction  To: 
                     high-productivity modularized industrial production
-                  </strong>
+                
                 </li>
-                <li className="list-disc">
+                <li className="list-disc lg:text-xl my-2">
                   {" "}
                   From:{" "}
-                  <strong> use of low value-added building materials </strong>
+        use of low value-added building materials 
                   To: {" "}
-                  <strong>
+                 
                     high value-added high-performance building components and
                     technology
-                  </strong>
+                  
                 </li>
               </ul>
             </div>
@@ -158,7 +158,7 @@ function About() {
         "
         >
           <div
-            className="flex flex-row  max-[600px]:px-4
+            className="flex flex-row max-[600px]:px-4
           "
           >
             <Image

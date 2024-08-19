@@ -77,13 +77,14 @@ export default function Home() {
         </section>
       </div>
 
+
       <div>
         {/* GALLERY */}
         <div className="">
           <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
             PROJECTS
           </h1>
-          <Carousel>
+          <Carousel autoPlay infiniteLoop>
             <div>
               <Image height={400} width={500} src={sl1} alt="1" />
             </div>
@@ -130,37 +131,37 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      <div className=" px-20 w-full ">
         <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
           CLIENTS
         </h1>
-        <div className="flex  max-[600px]:flex-wrap max-[600px]:px-20 pb-20 ">
+        <div className="flex px-1  max-[600px]:flex-wrap max-[600px]:px-20 pb-20 ">
           <Image
-            className="px-10 max-[600px]:mb-4"
+            className="px-2 max-[600px]:mb-4"
             src={unilag}
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             alt="Picture of the author"
           />
           <Image
-            className="px-10 max-[600px]:mb-4"
+            className="px-2 max-[600px]:mb-4"
             src={lagos}
-            width={400}
-            height={300}
+            width={300}
+            height={200}
             alt="Picture of the author"
           />
           <Image
-            className="px-4 max-[600px]:mb-4"
+            className="px-2 max-[600px]:mb-4"
             src={fg}
-            width={400}
-            height={300}
+            width={300}
+            height={200}
             alt="Picture of the author"
           />
           <Image
-            className="px-4 max-[600px]:mb-4 "
+            className="px-2 max-[600px]:mb-4 "
             src={lasgH}
-            width={400}
-            height={300}
+            width={300}
+            height={200}
             alt="Picture of the author"
           />
         </div>
