@@ -33,12 +33,12 @@ export default function Home() {
       <div>
         <section className="bg-cover bg-no-repeat bg-[url('../public/bg.jpg')] bg-gray-700 bg-blend-multiply">
           <div className="px-4 mx-auto max-w-screen-xl  py-24 lg:pt-40">
-            <div className=" text-white relative bottom-10 mt-2 max-[600px]:bottom-0 ">
+            <div className=" text-white relative bottom-10 mt-2 max-[600px]:bottom-0  ">
               <h2 className="font-extrabold">
                 DamDem MODULAR BUILDING TECH. LTD.
               </h2>
               <p>
-                Project management and actualization of R&D by DamDem Systems
+                Project management and actualisation of R&D by DamDem Systems
               </p>
             </div>
             <div className="flex  my-20  pl-10 max-[600px]:flex-wrap  max-[600px]:my-5">
@@ -49,10 +49,13 @@ export default function Home() {
                 </h1>
                 <p className="mb-8 text-lg font-normal text-justify text-gray-300 lg:text-xl sm:px-16 lg:px-10">
                   DamDem Systems (Building) is a branded name for R&D by
-                  Professor Olumide Olusanya
-                  over more than 40 years at the Department of Architecture
-                  University of Lagos, actualized in over 400 housing units. The Modularized Housing system provides for a wide variety of Housing Prototypes. It also provides the possibility of different permutations  of  apartment  types  in  a prototype as may be required.
-
+                  Professor Olumide Olusanya. In the period of more than 40
+                  years at the Department of Architecture University of Lagos,
+                  the System has been actualised in over 400 housing units. The
+                  Modularised Housing System provides for a wide variety of
+                  Housing Prototypes. It also provides the possibility of
+                  different permutations  of  apartment  types  in  a prototype
+                  as may be required.
                 </p>
               </div>
               <div class=" w-1/2 ml-10  max-[600px]:w-full  max-[600px]:ml-1  max-[600px]:my-10">
@@ -77,9 +80,8 @@ export default function Home() {
         </section>
       </div>
 
-
       <div>
-        {/* GALLERY */}
+        {/* SLIDER */}
         <div className="">
           <h1 className="mb-4 text-2xl  py-10 text-center font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
             PROJECTS

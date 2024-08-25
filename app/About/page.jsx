@@ -35,7 +35,7 @@ function About() {
         <spam className=" pl-4 absolute bottom-1 bg-white p-1 max-[600px]:relative">
           DAMDEM PRE-CAST SLAB BRIDGE CRANE: Innovation in Self-Erecting
           Industrial Systems Building 2022
-        </spam>
+        </spam> 
       </div>
       <section
         class=" h-full
@@ -46,7 +46,7 @@ function About() {
             <h2 className="font-extrabold">
               DAMDEM MODULAR BUILDING TECH. LTD.
             </h2>
-            <p>Project management and actualization of R&D by DamDem Systems</p>
+            <p>Project management and actualisation of R&D by DamDem Systems</p>
           </div>
 
           <dv className="text-white">
@@ -66,7 +66,7 @@ function About() {
                 DAMDEM SYSTEMS HOUSING
               </h1>
               <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-4">
-                The Modularized Housing developed over 4 decades provides a wide
+                The Modularised Housing developed over 4 decades provides a wide
                 variety of apartment types. It also provides the possibility of
                 different permutations of apartments in any given block as may
                 be required. <br className="mb-2" />
@@ -78,11 +78,11 @@ function About() {
                 The essential features are:
               </p>
               <ul className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-4 max-[600px]:px-4">
-                <li className="list-disc">Optimal utilization of land;</li>
-                <li className="list-disc">Optimization of natural lighting and cross ventilation;</li>
+                <li className="list-disc">Optimal utilisation of land;</li>
+                <li className="list-disc">Optimisation of natural lighting and cross ventilation;</li>
                 <li className="list-disc">
                   Articulation of the dual requirements for privacy as well as
-                  sense of community in the organization of residential units
+                  sense of community in the organisation of residential units
                   and public spaces.
                 </li>
               </ul>
@@ -100,9 +100,9 @@ function About() {
               <ul>
                 <li className="list-disc lg:text-xl">
                   {" "}
-                  <strong>INDUSTRIAL PRODUCTION</strong> of standardized
+                  <strong>INDUSTRIAL PRODUCTION</strong> of standardised
                   prefabricated building components in on-site factory for
-                  minimization of transportation costs. Production of components
+                  minimisation of transportation costs. Production of components
                   under workshop conditions ensures optimal quality control and
                   high productivity.
                 </li>{" "}
@@ -121,7 +121,7 @@ function About() {
               </p>
               <p className="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-1">
                 <strong>THE STRATEGY </strong>
-                Domestication of industrialization of the housing delivery
+                Domestication of industrialisation of the housing delivery
                 process through the building of indigenous productive capacity
                 i.e. Industrial infrastructure
               </p>
@@ -133,8 +133,8 @@ function About() {
                 <li className="list-disc  lg:text-xl ">
                   From:{" "}
                 
-                    low-productivity customized building construction  To: 
-                    high-productivity modularized industrial production
+                    low-productivity customised building construction  To: 
+                    high-productivity modularised industrial production
                 
                 </li>
                 <li className="list-disc lg:text-xl my-2">
@@ -212,11 +212,11 @@ function About() {
               University of Washington. Appointed a Professor of Architecture in
               1995, he also served as the Dean of the Faculty of Environmental
               Science University of Lagos from 1999 to 2000. His career has been
-              focused on actualization of research and innovation in creative
+              focused on actualisation of research and innovation in creative
               problem solving that impact the society: The development of Mass
               Housing Prototypes focused on environmental comfort and energy
               savings in a tropical climate, and Appropriate Building Technology
-              for sustainable industrialization through capacity enhancement
+              for sustainable industrialisation through capacity enhancement
               tailored to the realities of a developing economy.
             </p>
 
